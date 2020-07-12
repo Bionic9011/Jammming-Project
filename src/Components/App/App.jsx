@@ -30,7 +30,7 @@ class App extends React.Component {
         tracks.push(track);
         this.setState({playlistTracks: tracks});
     }
-
+//This is a test
     removeTrack(track) {
         let tracks = this.state.playlistTracks;
         tracks = tracks.filter(currentTrack => currentTrack.id !== track.id);
